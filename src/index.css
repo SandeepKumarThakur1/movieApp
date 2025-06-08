@@ -118,3 +118,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+body{
+  max-width: 1240px;
+  margin: auto;
+  padding-block: 1.5rem;
+}

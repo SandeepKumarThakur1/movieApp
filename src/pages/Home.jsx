@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Search from "./Search";
+import Movie from "./Movie";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
 
-export default Home
+  return (
+    <>
+      <Search />
+      <Movie/>
+    </>
+  );
+};
+
+export default Home;
